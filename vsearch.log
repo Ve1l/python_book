@@ -2,3 +2,5 @@ ImmutableMultiDict([('phrase', 'yuyuyuyuyuyu'), ('letters', 'aeiou')])|127.0.0.1
 ImmutableMultiDict([('phrase', 'eeeaaa'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36|{'e', 'a'}
 ImmutableMultiDict([('phrase', 'gdfgdfg'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36|set()
 ImmutableMultiDict([('phrase', 'jfhjfh'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36|set()
+ImmutableMultiDict([('phrase', 'oiuea'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:96.0) Gecko/20100101 Firefox/96.0|{'e', 'a', 'u', 'o', 'i'}
+ImmutableMultiDict([('phrase', 'hjkghfg'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:96.0) Gecko/20100101 Firefox/96.0|set()
