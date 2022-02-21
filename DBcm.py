@@ -2,12 +2,14 @@ import mysql.connector
 
 class ConnectionError(Exception):
     pass
+
 class CredentialsError(Exception):
     pass
+
 class SQLError(Exception):
     pass
+
 class UseDatabase:
-  
     def __init__(self, config: dict) -> None:
         self.configuration = config
     
@@ -22,7 +24,7 @@ class UseDatabase:
             raise CredentialsError(err)
           
     
-    def __exit__(self, exc_type, exc_value, exc_trace) -> None:
+    def __exit__(self, exc_type, exc_value, exc_traceback) -> None:
         self.conn.commit()
         self.cursor.close()
         self.conn.close()
